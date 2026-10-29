@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Control de caducidades por WhatsApp</title>
+  <meta name="description" content="Servicio para tiendas de alimentación: registra las fechas de caducidad con un audio, una foto o un texto por WhatsApp y recibe cada día un aviso de lo que caduca.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232e7d4f'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11.5' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="contenedor">
+      <a class="marca" href="./">
+        <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#2e7d4f"/><path d="M9 16.5l4.5 4.5L23 11.5" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Control de caducidades
+      </a>
+      <nav><a href="privacidad.html">Privacidad</a></nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <span class="etiqueta">En desarrollo · fase piloto</span>
+    <h1>Las fechas de caducidad, apuntadas por WhatsApp</h1>
+    <p class="entradilla">Un servicio para tiendas de alimentación. Al recibir el pedido, el personal envía un audio, una foto de la etiqueta o un texto por WhatsApp. Cada día, la tienda recibe un aviso con lo que caduca, a tiempo para retirarlo o rebajarlo.</p>
+
+    <figure class="chat" aria-label="Ejemplo de conversación">
+      <div class="burbuja usuario">🎙️ «Leche entera, doce, caduca el 3 de noviembre. Ensaladas de pollo, seis.»</div>
+      <div class="burbuja bot">✅ Registrado:<br>1) Leche entera · 12 uds · 03/11<br><span class="duda">⚠️ ¿Qué fecha tienen las ensaladas de pollo?</span></div>
+      <div class="burbuja bot">📅 Buenos días. Caduca hoy: 2 productos. Para rebajar (1-3 días): 3 productos.</div>
+      <figcaption>Ejemplo ilustrativo de cómo funcionará</figcaption>
+    </figure>
+
+    <h2>Cómo funciona</h2>
+    <ol class="pasos">
+      <li><strong>1. Envías</strong>Un audio, una foto de la etiqueta o un texto con el producto y su fecha. No hay que instalar nada.</li>
+      <li><strong>2. Se registra</strong>El servicio entiende el mensaje, te responde con un resumen y solo pregunta lo que no ha quedado claro.</li>
+      <li><strong>3. Recibes el aviso</strong>Cada día, a la hora que elijas: lo que caduca hoy, lo que conviene rebajar y lo que entra en la semana.</li>
+    </ol>
+
+    <h2>Para quién es</h2>
+    <p>Para tiendas pequeñas de alimentación (tiendas de barrio, de estaciones de servicio, fruterías, carnicerías…) que hoy controlan las caducidades a mano y quieren tirar menos producto.</p>
+
+    <h2>Estado del proyecto</h2>
+    <p>El servicio está en desarrollo y se está preparando una primera prueba piloto con una tienda. Si tienes una tienda y te interesa probarlo, escríbenos.</p>
+
+    <h2>Contacto</h2>
+    <div class="contacto">
+      <p style="margin:0"><strong>Joan Martínez Hernández</strong><br>
+      <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;joan_mart_her&#64;hotmail&#46;com">joan_mart_her&#64;hotmail&#46;com</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <span>© 2026 Joan Martínez Hernández</span>
+      <a href="privacidad.html">Política de privacidad</a>
+    </div>
+  </footer>
+</body>
+</html>
